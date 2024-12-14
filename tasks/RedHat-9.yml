@@ -1,0 +1,12 @@
+---
+
+- name: Clone template to VM
+  community.general.proxmox:
+    vmid: "{{ vm_id }}"
+    node: "{{ proxmox_node }}"
+    api_user: "{{ proxmox_api_user }}"
+    api_password: "{{ hera_root }}"
+    api_host: "{{ proxmox_api_host }}"
+    clone: "{{ template_id }}"
+    hostname: "{{ host_name }}.{{ domain_name }}" 
+...

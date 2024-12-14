@@ -1,0 +1,10 @@
+---
+
+template_id: 9999
+host_name: "superduperserver"
+domain_name: "mydomain.example"
+proxmox_api_host: "pve1.mydomain.example"
+proxmox_api_user: "root@pam"
+proxmox_node: "pve1"
+
+...
